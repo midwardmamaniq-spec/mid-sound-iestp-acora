@@ -1,0 +1,273 @@
+import { Equipment } from '../types';
+
+export const EQUIPMENT_CATALOG: Equipment[] = [
+  {
+    id: 'la-rcf-hdl20a',
+    name: 'Sistema Line Array Activo HDL 20-A (Módulo 2 Vías)',
+    brand: 'RCF Italia',
+    model: 'HDL 20-A Active Line Array',
+    category: 'line-array',
+    categoryLabel: 'Line Array & Cajas Activas',
+    dailyRate: 180,
+    stockAvailable: 12,
+    image: '/src/assets/images/audio_line_array_1793135978034.jpg',
+    description: 'Módulo line array activo bi-amplificado con dos woofers de 10" y motor de compresión de titanio de 2". Ideal para festivales, estadios y auditorios de gran escala en el Altiplano puneño con excelente tiro acústico.',
+    highlights: ['Potencia pico 1400W / 700W RMS digital Clase D', 'Procesador DSP con presets acústicos de altura', 'Guía de onda simétrica de 100° x 15°'],
+    specs: {
+      potenciaRMS: '700W RMS (500W LF + 200W HF)',
+      splMax: '135 dB SPL',
+      canales: '1 entrada / 1 link XLR balanceado',
+      cobertura: '100° horizontal x 15° vertical',
+      frecuencia: '55 Hz – 20.000 Hz',
+      consumoElectrico: '220V AC / 50-60 Hz (PowerCON)',
+      peso: '29.0 kg',
+      dimensiones: '294 x 705 x 445 mm',
+      conectividad: 'XLR Neutrik In/Out con conectores PowerCON'
+    },
+    includes: ['Bumper de colgado rígido de acero', 'Pines de anclaje de liberación rápida', 'Cable PowerCON link de 2m', 'Funda de transporte acolchada'],
+    idealFor: 'Festivales al aire libre, pasacalles folclóricos y aniversarios patronales en Ácora y Puno.'
+  },
+  {
+    id: 'sub-rcf-sub8006',
+    name: 'Subwoofer Activo Doble 18" SUB 8006-AS',
+    brand: 'RCF Italia',
+    model: 'SUB 8006-AS High Power',
+    category: 'line-array',
+    categoryLabel: 'Line Array & Cajas Activas',
+    dailyRate: 250,
+    stockAvailable: 6,
+    image: '/src/assets/images/audio_line_array_1793135978034.jpg',
+    description: 'Subwoofer activo de alta potencia con dos woofers de 18" de excursión ultra larga y bobinas de 4". Proporciona graves profundos y contundentes indispensables para bombos de bandas puneñas y música en vivo.',
+    highlights: ['Potencia 5000W Pico / 2500W RMS', 'Respuesta ultra baja hasta 30 Hz', 'Control DSP integrado y delay para configuraciones cardioides'],
+    specs: {
+      potenciaRMS: '2500W RMS',
+      splMax: '141 dB SPL',
+      canales: 'Stereo XLR In/Out con corte de frecuencia variable',
+      cobertura: 'Omnidireccional / Cardioide con DSP',
+      frecuencia: '30 Hz – 120 Hz',
+      consumoElectrico: '220V AC 3200W pico',
+      peso: '90 kg (con ruedas heavy-duty)',
+      dimensiones: '709 x 1109 x 700 mm',
+      conectividad: 'PowerCON TRUE1 y XLR balanceado'
+    },
+    includes: ['Ruedas de transporte de uso rudo', 'Cable PowerCON de alimentación 5m', 'Cables XLR Mogami'],
+    idealFor: 'Refuerzo de graves en estadios, plazas principales y conciertos al aire libre.'
+  },
+  {
+    id: 'mix-allen-heath-dante',
+    name: 'Consola Digital 32 Canales dLive / SQ-6 con Pantalla Táctil',
+    brand: 'Allen & Heath',
+    model: 'SQ-6 96kHz FPGA Digital Mixer',
+    category: 'consolas-digitales',
+    categoryLabel: 'Consolas & Mezcladores Digitales',
+    dailyRate: 320,
+    stockAvailable: 4,
+    image: '/src/assets/images/audio_digital_mixer_1793135979468.jpg',
+    description: 'Consola digital insignia de 96kHz con 48 canales de procesamiento, 24 faders motorizados, pantalla táctil capacitiva de 7" y latencia ultra baja de 0.7ms. Permite grabación multipista USB y control por iPad.',
+    highlights: ['Audio de alta resolución a 96kHz', '25 faders motorizados en 6 capas personalizables', 'Grabación estéreo y 32x32 multipista directa a USB'],
+    specs: {
+      canales: '48 canales de entrada / 36 buses de mezcla',
+      frecuencia: '20 Hz – 40 kHz (96kHz core FPGA)',
+      consumoElectrico: '220V AC / 90W con fuente redundante opcional',
+      conectividad: 'Dante 64x64, SLink para Stage Box digital, USB Audio, Ethernet',
+      peso: '13.3 kg',
+      dimensiones: '638 x 515 x 198 mm'
+    },
+    includes: ['Flight case rígido con espuma moldeada', 'Stage Box Digital DX168 (16 in / 8 out) por cable Cat6 de 50m', 'Router Wi-Fi 5GHz para control inalámbrico por tablet'],
+    idealFor: 'Ingeniería de sonido en vivo FOH y monitores para orquestas, bandas de morenada y eventos oficiales.'
+  },
+  {
+    id: 'mix-behringer-x32',
+    name: 'Consola Digital 32 Canales X32 Compact',
+    brand: 'Behringer / Midas Tech',
+    model: 'X32 Compact 40-Input Digital Console',
+    category: 'consolas-digitales',
+    categoryLabel: 'Consolas & Mezcladores Digitales',
+    dailyRate: 210,
+    stockAvailable: 3,
+    image: '/src/assets/images/audio_digital_mixer_1793135979468.jpg',
+    description: 'Consola estándar de la industria con preamplificadores diseñados por MIDAS, faders motorizados de 100mm, efectos virtuales FX de estudio y control remoto total desde dispositivos móviles.',
+    highlights: ['16 preamplificadores MIDAS programables', 'Interfaz de audio USB 2.0 de 32 canales', 'Pantalla TFT a color de 7 pulgadas de alta visibilidad'],
+    specs: {
+      canales: '32 canales de entrada, 16 auxiliares, 8 matrices',
+      frecuencia: '10 Hz – 22 kHz',
+      consumoElectrico: '220V AC / 120W',
+      conectividad: 'AES50 SuperMAC, Ultranet, USB, MIDI',
+      peso: '15.4 kg',
+      dimensiones: '215 x 625 x 510 mm'
+    },
+    includes: ['Estuche de viaje Flight Case de aluminio', 'Snake digital S16 de 16 canales', 'Cable de red Cat6 blindado 30m'],
+    idealFor: 'Conferencias académicas, auditorios del IESTP Ácora y eventos cívicos distritales.'
+  },
+  {
+    id: 'mic-shure-qlxd-dual',
+    name: 'Sistema Inalámbrico Digital Dual UHF Shure QLX-D',
+    brand: 'Shure',
+    model: 'QLXD24 / Beta 58A Dual Combo',
+    category: 'microfonia',
+    categoryLabel: 'Microfonía Profesional',
+    dailyRate: 140,
+    stockAvailable: 8,
+    image: '/src/assets/images/audio_wireless_mics_1793135978754.jpg',
+    description: 'Sistema inalámbrico digital de grado profesional con cápsulas legendarias Beta 58A supercardioides. Audio digital transparente de 24 bits y encriptación AES-256 para total seguridad y cero interferencias.',
+    highlights: ['Alcance de hasta 100 metros en línea de vista', 'Autonomía de 9 horas con baterías recargables', 'Escaneo automático de frecuencias y sincronización IR'],
+    specs: {
+      canales: 'Dual UHF 2 canales independientes con salida balanceada',
+      frecuencia: '20 Hz – 20 kHz respuesta plana',
+      splMax: '140.5 dB SPL',
+      consumoElectrico: '220V AC (adaptador incluido) / Transmisor 2x AA',
+      peso: '3.8 kg (rack con maletín)',
+      dimensiones: 'Receptor rack 1U estándar 19"'
+    },
+    includes: ['Maletín rígido Peli Case acolchado', '2 Micrófonos de mano Beta 58A', 'Antenas de alta ganancia de 1/2 onda', 'Cables XLR blindados Neutrik'],
+    idealFor: 'Vocalistas principales, maestros de ceremonia y oradores en ceremonias de graduación.'
+  },
+  {
+    id: 'mic-sennheiser-ew-g4',
+    name: 'Kit Inalámbrico de Solapa / Lavalier EW 100 G4',
+    brand: 'Sennheiser',
+    model: 'ew 100 G4-ME2 Bodypack Wireless',
+    category: 'microfonia',
+    categoryLabel: 'Microfonía Profesional',
+    dailyRate: 110,
+    stockAvailable: 6,
+    image: '/src/assets/images/audio_wireless_mics_1793135978754.jpg',
+    description: 'Sistema inalámbrico de petaca con micrófono omnidireccional de clip ME 2-II. Perfecto para disertantes, autoridades académicas y presentaciones protocolares con discreción y máxima fidelidad vocal.',
+    highlights: ['Ancho de banda de sintonía de hasta 42 MHz', 'Receptor True Diversity con chasis de metal robusto', 'Sonido limpio y resistente al viento con capuchón anti-pop'],
+    specs: {
+      canales: '1 canal UHF con 1680 frecuencias seleccionables',
+      cobertura: 'Hasta 100 metros',
+      frecuencia: '50 Hz – 18.000 Hz',
+      consumoElectrico: '220V AC / Baterías petaca 2x AA'
+    },
+    includes: ['Micrófono de corbata discreto ME 2-II', 'Transmisor de cuerpo bodypack metálico', 'Receptor EM 100 G4', 'Pinzas de sujeción para ropa'],
+    idealFor: 'Congresos de investigación, conferencias magistrales y juramentaciones protocolares.'
+  },
+  {
+    id: 'light-beam-230-dmx',
+    name: 'Cabezas Móviles Robóticas Beam 230 7R (Set x 4 Unidades)',
+    brand: 'Showtec / Beam Master',
+    model: 'Beam 230 7R DMX Moving Head Kit',
+    category: 'iluminacion',
+    categoryLabel: 'Iluminación Escénica & Truss',
+    dailyRate: 260,
+    stockAvailable: 5,
+    image: '/src/assets/images/audio_stage_lighting_1793135978699.jpg',
+    description: 'Kit de 4 cabezas móviles robóticas de haz concentrado (beam) con rueda de 14 colores y 17 gobos fijos. Movimiento veloz pan de 540° y tilt de 270° con prisma circular de 8 caras para efectos visuales electrizantes.',
+    highlights: ['Lámpara de descarga 230W 7R de alta penetración', 'Prisma rotatorio de 8 caras y efecto estroboscópico', 'Control DMX-512 de 16/20 canales'],
+    specs: {
+      canales: '16 o 20 canales DMX512',
+      potenciaRMS: '280W por unidad',
+      consumoElectrico: '220V AC 50/60 Hz',
+      dimensiones: '523 x 337 x 411 mm',
+      peso: '16 kg por unidad en Flight Case con ruedas'
+    },
+    includes: ['Flight case con ruedas dobles para 2 unidades', 'Garras de enganche rápido para truss de 2"', 'Cables DMX XLR de 3 pines', 'Cables de seguridad de acero'],
+    idealFor: 'Escenarios nocturnos, danzas con coreografía de luces y festivales artísticos.'
+  },
+  {
+    id: 'light-par-led-rgbw',
+    name: 'Tacho Par LED 18x12W RGBW Baño de Luz (Pack x 8 Unidades)',
+    brand: 'Chauvet DJ',
+    model: 'SlimPAR Pro Q USB Equivalent Kit',
+    category: 'iluminacion',
+    categoryLabel: 'Iluminación Escénica & Truss',
+    dailyRate: 150,
+    stockAvailable: 6,
+    image: '/src/assets/images/audio_stage_lighting_1793135978699.jpg',
+    description: 'Pack de 8 proyectores Par LED de cuatro colores (Rojo, Verde, Azul y Blanco puro) ideales para bañar telones de fondo, escenografías institucionales y ambientación perimetral de salones de eventos.',
+    highlights: ['Mezcla suave de colores sin sombras multicolores', 'Cero emisión de calor excesivo y bajo consumo eléctrico', 'Operación silenciosa con refrigeración por convección'],
+    specs: {
+      potenciaRMS: '18 x 12W Quad-LED (216W por tacho)',
+      cobertura: 'Ángulo de apertura de haz de 25°',
+      consumoElectrico: '220V AC interconectable en cadena (Daisy Chain)',
+      peso: '2.5 kg por tacho'
+    },
+    includes: ['8 tachos con soportes dobles de piso o colgado', '8 cables DMX y 8 cables de alimentación PowerCON', 'Bolsa de transporte reforzada'],
+    idealFor: 'Iluminación arquitectónica de auditorios, fondos de podio y galas del IESTP Ácora.'
+  },
+  {
+    id: 'truss-aluminum-kit',
+    name: 'Estructura Modular de Aluminio Truss F34 (Pórtico 6m x 4m)',
+    brand: 'Global Truss',
+    model: 'Truss Cuadrado F34 de 290mm',
+    category: 'iluminacion',
+    categoryLabel: 'Iluminación Escénica & Truss',
+    dailyRate: 220,
+    stockAvailable: 3,
+    image: '/src/assets/images/audio_stage_lighting_1793135978699.jpg',
+    description: 'Pórtico modular de aluminio de aviación con aleación EN AW-6082 T6. Capaz de sostener hasta 600 kg de luces y parlantes colgados de manera completamente segura y certificada ante INDECI.',
+    highlights: ['Certificación TÜV de carga estática y dinámica', 'Montaje rápido con acopladores cónicos y pasadores', 'Bases pesadas de acero para máxima estabilidad ante vientos del altiplano'],
+    specs: {
+      dimensiones: 'Luz libre de 6 metros de ancho x 4 metros de alto',
+      peso: '85 kg en total',
+      conectividad: 'Tubo principal de 50mm x 2mm (acople cónico rápido)'
+    },
+    includes: ['2 Torres de elevación con cabrestante manual', 'Bases de acero de 40 kg cada una', '4 tramos rectos de 3m y 2m', 'Eslingas y grilletes de seguridad'],
+    idealFor: 'Soporte aéreo de iluminación y sonido en plazas de armas y auditorios abiertos.'
+  },
+  {
+    id: 'gen-diesel-caterpillar',
+    name: 'Grupo Electrógeno Insonorizado 12 kVA 220V',
+    brand: 'Kohler / Cummins Tech',
+    model: 'Silent Diesel Generator 12 kVA',
+    category: 'energia-accesorios',
+    categoryLabel: 'Energía & Accesorios',
+    dailyRate: 190,
+    stockAvailable: 2,
+    image: '/src/assets/images/hero_audio_production_1793135976729.jpg',
+    description: 'Generador eléctrico diésel cabinado super silencioso (65 dB a 7m) con regulador automático de voltaje (AVR digital). Garantiza energía pura y estabilizada protegiendo consolas digitales y amplificadores.',
+    highlights: ['Voltaje ultra estable protegido contra picos y caídas', 'Autonomía de 12 horas continuas con tanque lleno', 'Cabinado para intemperie y bajas temperaturas de Puno (-5°C)'],
+    specs: {
+      potenciaRMS: '10 kW continuo / 12 kVA de arranque',
+      consumoElectrico: 'Salida monofásica 220V / 50-60 Hz seleccionable',
+      peso: '280 kg sobre chasis rodante',
+      dimensiones: '1200 x 700 x 850 mm'
+    },
+    includes: ['Tablero de distribución eléctrica con disyuntores diferenciales', 'Cable vulcanizado de extensión 4x10 AWG de 40 metros', 'Puesta a tierra portátil con varilla de cobre'],
+    idealFor: 'Eventos en zonas rurales de Ácora, orillas del lago o lugares sin suministro eléctrico estable.'
+  },
+  {
+    id: 'mon-in-ear-shure-psm300',
+    name: 'Sistema de Monitoreo Personal In-Ear Shure PSM 300 (Set x 4)',
+    brand: 'Shure',
+    model: 'PSM 300 Twinpack Pro Wireless',
+    category: 'microfonia',
+    categoryLabel: 'Microfonía Profesional',
+    dailyRate: 170,
+    stockAvailable: 4,
+    image: '/src/assets/images/audio_wireless_mics_1793135978754.jpg',
+    description: 'Monitoreo estéreo inalámbrico digital de 24 bits con 4 receptores de petaca y auriculares con aislamiento de sonido SE215. Evita acoples y asegura que cantantes y directores de banda escuchen con precisión milimétrica.',
+    highlights: ['Audio digital claro con dinámica detallada', 'Modo MixMode para mezclar dos fuentes mono', 'Robusto enlace de radiofrecuencia de hasta 90 metros'],
+    specs: {
+      canales: '2 transmisores estéreo / 4 petacas receptoras P3RA',
+      frecuencia: '38 Hz – 15 kHz',
+      consumoElectrico: '220V AC con eliminador'
+    },
+    includes: ['4 Auriculares Shure SE215 con almohadillas desinfectadas', '4 Receptores de petaca de aluminio P3RA', 'Combinador de antenas pasivo'],
+    idealFor: 'Orquestas en vivo, solistas y músicos en festivales de música andina y contemporánea.'
+  },
+  {
+    id: 'box-active-jbl-eon',
+    name: 'Par de Parlantes Activos JBL EON715 15" con Bluetooth',
+    brand: 'JBL Professional',
+    model: 'EON715 1300W Powered PA System',
+    category: 'line-array',
+    categoryLabel: 'Line Array & Cajas Activas',
+    dailyRate: 130,
+    stockAvailable: 8,
+    image: '/src/assets/images/audio_line_array_1793135978034.jpg',
+    description: 'Pareja de cajas acústicas activas de 15" y 1300W pico con mezclador de 3 canales incorporado, DSP dbx y supresión automática de acople. La solución más versátil y rápida para actos cívicos y aulas magnas.',
+    highlights: ['Supresión de retroalimentación AFS automática', 'DSP con presets para palabra, música y monitor', 'Entrada directa de micrófono o instrumento con Bluetooth 5.0'],
+    specs: {
+      potenciaRMS: '650W RMS continuos por caja',
+      splMax: '128 dB SPL',
+      cobertura: '90° horizontal x 60° vertical',
+      frecuencia: '45 Hz – 20 kHz',
+      peso: '16.9 kg por caja',
+      dimensiones: '702 x 438 x 351 mm'
+    },
+    includes: ['2 Trípodes de acero con amortiguación neumática', '2 Cables de poder de 5m', '2 Cables de señal XLR de 10m'],
+    idealFor: 'Asambleas escolares, talleres del instituto, desfiles cívicos y eventos medianos.'
+  }
+];

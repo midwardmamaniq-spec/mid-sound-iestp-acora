@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .text-glow-cyan {
+    text-shadow: 0 0 20px rgba(0, 242, 254, 0.6), 0 0 40px rgba(0, 242, 254, 0.2);
+  }
+  .text-glow-purple {
+    text-shadow: 0 0 20px rgba(158, 0, 255, 0.6), 0 0 40px rgba(158, 0, 255, 0.2);
+  }
+  .box-glow-cyan {
+    box-shadow: 0 0 25px -5px rgba(0, 242, 254, 0.35);
+  }
+  .box-glow-purple {
+    box-shadow: 0 0 30px -5px rgba(158, 0, 255, 0.35);
+  }
+}
+
+@keyframes eqBounce {
+  0%, 100% { height: 18%; }
+  50% { height: 95%; }
+}
+
+.animate-eq-1 { animation: eqBounce 1.2s ease-in-out infinite; }
+.animate-eq-2 { animation: eqBounce 0.9s ease-in-out infinite 0.2s; }
+.animate-eq-3 { animation: eqBounce 1.4s ease-in-out infinite 0.4s; }
+.animate-eq-4 { animation: eqBounce 0.8s ease-in-out infinite 0.1s; }
+.animate-eq-5 { animation: eqBounce 1.1s ease-in-out infinite 0.3s; }
+.animate-eq-6 { animation: eqBounce 1.3s ease-in-out infinite 0.5s; }
+.animate-eq-7 { animation: eqBounce 0.95s ease-in-out infinite 0.15s; }
+.animate-eq-8 { animation: eqBounce 1.25s ease-in-out infinite 0.35s; }

@@ -1,0 +1,6 @@
+{
+  "name": "IESTP Ácora - Alquiler de Equipos de Sonido",
+  "description": "Plataforma oficial de la Unidad de Producción de Alquiler de Equipos de Sonido e Iluminación del IESTP Ácora - Puno. Licenciamiento Institucional 2027 bajo Condiciones Básicas de Calidad (CBC) del MINEDU.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
